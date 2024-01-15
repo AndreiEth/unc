@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  min-height: calc(100vh - 70px);
+  box-sizing: content-box;
+
+  &__drop-logo{
+
+  }
+
+  &__drop {
+    position: relative;
+    max-width: 33.33vw;
+    img {
+      display: block;
+      max-width: 33.33vw;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: 1;
+      transition: all 0.3s ease-in-out;
+
+      z-index: 1;
+
+      &:hover {
+        transform: scale(1.1, 1);
+      }
+    }
+  }
+
+  &__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+
+  &__overlay-description {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 239px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
