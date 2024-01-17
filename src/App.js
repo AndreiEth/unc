@@ -12,6 +12,11 @@ function App() {
           path='/'
           element={<Home/>}
         ></Route>
+		<Route
+		path="/drop2"
+		element={<></>}
+		>
+		</Route>
         <Route
           path='/catalog'
           element={<div>Каталог</div>}

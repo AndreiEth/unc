@@ -36,6 +36,8 @@
   top: 0;
   left: -100%;
   transition: 850ms;
+  position: absolute;
+  z-index: 3;
 }
 
 .nav-menu.active {
@@ -100,7 +102,12 @@ span {
   font-weight: 400;
   line-height: 24.8px;
   max-width: 230px;
-  margin: 0 0 42px 40px;
+  left: 40px;
+  bottom: 42px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+
 }
 
 .navbar-logo {
