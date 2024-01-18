@@ -2,6 +2,8 @@ import "./App.scss";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home/Home";
+import Privacy from "./pages/privacy/Privacy";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -31,7 +33,7 @@ function App() {
         ></Route>
         <Route
           path='/privacy'
-          element={<div>Политика конфиденциальности</div>}
+          element={<Privacy/>}
         ></Route>
         <Route
           path='/care'

@@ -5,7 +5,6 @@ import "./navbar.scss";
 import Burgermenu from "../../images/burger-menu.svg";
 import CloseBtn from "../../images/clode-btn.svg";
 import LOGO from "../../images/logo.svg";
-import RU from "../../images/RU.svg";
 import Cart from "../../images/cart.svg";
 
 function Navbar() {

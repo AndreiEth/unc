@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   max-width: 100vw;
-  min-height: calc(100vh - 70px);
+  height: calc(100vh - 70px);
   box-sizing: content-box;
 
   &__drop {
@@ -17,8 +17,8 @@
 
   &__drop-img {
     display: block;
-    max-width: 33.33vw;
-    min-height: 100%;
+    width: 33.33vw;
+    height: 100%;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
 
