@@ -60,9 +60,9 @@
       font-weight: 500;
       line-height: 20px;
     }
-	&:hover #bottom-logo{
-		display: block;
-	}
+    &:hover #bottom-logo {
+      display: block;
+    }
   }
 
   &__overlay-logo {
@@ -85,14 +85,12 @@
     font-weight: 500;
     line-height: 20px;
   }
-
-  
 }
 
-#bottom-logo{
-	position: absolute;
-    background-color: transparent;
-	display: none;
-    bottom: 50px;
-    right: 40px;
+#bottom-logo {
+  position: absolute;
+  background-color: transparent;
+  display: none;
+  bottom: 50px;
+  right: 40px;
 }

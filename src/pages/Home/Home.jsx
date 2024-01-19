@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <section className='home'>
       <Link
-        to='/drop1'
+        to='/ur'
         className='home__drop'
       >
         <img
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
       </Link>
       <Link
-        to='/drop2'
+        to='/ae'
         className='home__drop'
       >
         <img
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
       </Link>
       <Link
-        to='/drop3'
+        to='/ag'
         className='home__drop'
       >
         <img

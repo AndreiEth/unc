@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Privacy from "./pages/privacy/Privacy";
 import Footer from "./components/footer/Footer";
+import AeDrop from "./pages/aeDrop/AeDrop";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
           element={<Home/>}
         ></Route>
 		<Route
-		path="/drop2"
-		element={<></>}
+		path="/ae"
+		element={<AeDrop/>}
 		>
 		</Route>
         <Route
