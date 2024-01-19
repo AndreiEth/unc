@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Privacy from "./pages/privacy/Privacy";
 import Footer from "./components/footer/Footer";
 import AeDrop from "./pages/aeDrop/AeDrop";
+import Card from "./pages/card/Card";
 
 function App() {
   return (
@@ -13,13 +14,16 @@ function App() {
       <Routes>
         <Route
           path='/'
-          element={<Home/>}
+          element={<Home />}
         ></Route>
-		<Route
-		path="/ae"
-		element={<AeDrop/>}
-		>
-		</Route>
+        <Route
+          path='/ae'
+          element={<AeDrop />}
+        ></Route>
+        <Route
+          path='/ae/item/1'
+          element={<Card />}
+        ></Route>
         <Route
           path='/catalog'
           element={<div>Каталог</div>}
@@ -34,7 +38,7 @@ function App() {
         ></Route>
         <Route
           path='/privacy'
-          element={<Privacy/>}
+          element={<Privacy />}
         ></Route>
         <Route
           path='/care'

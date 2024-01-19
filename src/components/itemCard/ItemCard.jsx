@@ -8,7 +8,7 @@ export default function ItemCard({ card }) {
   const cardId = `${id}`;
   return (
     <Link
-      to={`${"/item"}/${cardId}`}
+      to={`${"/ae/item"}/${cardId}`}
       className='card'
     >
       <img
