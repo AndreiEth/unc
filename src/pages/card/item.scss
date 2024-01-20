@@ -1,0 +1,49 @@
+.item {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+
+  &__image-cotnainer {
+  }
+
+  &__title {
+    color: #fff;
+    text-align: center;
+    font-family: Halvar Breitschrift;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 84.375% */
+  }
+
+  &__info {
+    list-style: none;
+    li {
+      color: #fff;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21.6px;
+      span {
+        color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21.6px;
+        opacity: 0.6;
+        margin: 0;
+      }
+    }
+  }
+  &__price {
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21.6px;
+  }
+}
