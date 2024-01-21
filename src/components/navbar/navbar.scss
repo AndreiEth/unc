@@ -1,3 +1,8 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 .navbar {
   background-color: #121212;
   height: 70px;
@@ -107,7 +112,6 @@ span {
   position: absolute;
   margin: 0;
   padding: 0;
-
 }
 
 .navbar-logo {

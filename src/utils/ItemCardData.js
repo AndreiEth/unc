@@ -9,14 +9,14 @@ export const ITEM_CARD = [
   {
     link: "../../images/item-card.png",
     title: "Jersey AEV2 // AW2023",
-    price: "2 800",
+    price: "4 000",
     sale: "3 500",
     id: 2,
   },
   {
     link: "../../images/item-card.png",
     title: "Jersey AEV2 // AW2023",
-    price: "2 800",
+    price: "5 000",
     sale: "3 500",
     id: 3,
   },
